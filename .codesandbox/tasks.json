@@ -1,0 +1,46 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "install-node-v14": {
+      "name": "install-node-v14",
+      "command": "yarn install-node-v14",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "rm-logs": {
+      "name": "rm-logs",
+      "command": "yarn rm-logs",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "yarn format",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    },
+    "yar install-node-v16.7.0": {
+      "name": "yar install-node-v16.7.0",
+      "command": "yar install-node-v16.7.0"
+    },
+    "yarn install-node-v16.7.0": {
+      "name": "yarn install-node-v16.7.0",
+      "command": "yarn install-node-v16.7.0"
+    }
+  }
+}
